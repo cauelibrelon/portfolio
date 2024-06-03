@@ -1,0 +1,117 @@
+body {
+    background-color: #FFE063;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#principal {
+    height: 10vh;
+}
+
+#logo {
+    margin-top: 30px;
+    text-align: right;
+    float: right;
+}
+
+#nav {
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 1em;
+    color: rgb(110, 110, 110);
+}
+
+.active {
+    color: rgb(245, 34, 34);
+}
+
+.active:visited {
+    color: rgb(3, 3, 3);
+}
+
+.carousel-inner {
+    max-height: 800px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: rgb(237, 237, 86);
+    color: black;
+    padding: 10px;
+    text-align: left;
+    position: fixed; /* Mudança para 'fixed' para manter o rodapé fixo na parte inferior da página */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.caue {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+.quem {
+    padding: 10px;
+    text-align: center;
+    margin-top: 95px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+.fotografia {
+    padding: 10px;
+    text-align: center;
+    margin-top: 95px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+.texto {
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    font-size: larger;
+}
+.minha-foto {
+    text-align: left; 
+    margin-left: 300px;
+}
+
+.foto-redonda {
+    border-radius: 50%; 
+    width: 320px; 
+    height: 320px; 
+    object-fit: cover; 
+}
+.foto-redonda2 {
+    border-radius: 50%; 
+    width: 180px; 
+    height: 180px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 80px; 
+    left: 200px; 
+    color: black; 
+    padding: 5px 10px; 
+    font-size: 18px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px; 
+}
+
