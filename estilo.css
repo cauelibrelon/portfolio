@@ -1,13 +1,10 @@
 body {
     background-color: #FFE063;
+    min-height: 100vh; 
+    overflow-x: hidden;
 }
-
 .text-center {
     text-align: center;
-}
-
-#principal {
-    height: 10vh;
 }
 
 #logo {
@@ -42,9 +39,9 @@ footer {
     background-color: rgb(237, 237, 86);
     color: black;
     padding: 10px;
-    text-align: left;
-    position: fixed; /* Mudança para 'fixed' para manter o rodapé fixo na parte inferior da página */
+    text-align: center;
     width: 100%;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
@@ -65,53 +62,75 @@ footer img {
 .quem {
     padding: 10px;
     text-align: center;
-    margin-top: 95px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
-}
-.fotografia {
-    padding: 10px;
-    text-align: center;
-    margin-top: 95px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
-}
-.texto {
-    font-family: 'Times New Roman', Times, serif;
-    float: right;
-    font-size: larger;
-}
-.minha-foto {
-    text-align: left; 
-    margin-left: 300px;
 }
 
-.foto-redonda {
-    border-radius: 50%; 
-    width: 320px; 
-    height: 320px; 
-    object-fit: cover; 
+.minha-foto {
+    text-align: left;
+    margin-top: -230px;
 }
+
+.minha-foto img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 400px;
+}
+
+.texto {
+    text-align: left;
+    margin-left: 700px;
+}
+.texto-musica {
+    text-align: left;
+    margin-left: 700px;
+}
+
+.tabela {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    margin-right: 370px;
+    border-radius: 100%;
+}
+
 .foto-redonda2 {
-    border-radius: 50%; 
-    width: 180px; 
-    height: 180px; 
-    object-fit: cover; 
-    margin-bottom: 10px;
-}
-.image-container {
-    position: relative;
-    display: inline-block;
+    border-radius: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
 }
 
 .image-text {
-    position: absolute;
-    bottom: 80px; 
-    left: 200px; 
-    color: black; 
-    padding: 5px 10px; 
-    font-size: 18px; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 10px; 
+    font-size: larger;
+    margin-top: 20px;
 }
-
+a img {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.texto-tabela {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.foto-redonda {
+    border-radius: 50%;
+}
+.estudio img {
+    margin-top: -180px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.videoclipe {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 30px;
+}
+.linkedin {
+    width: 40px;
+}
